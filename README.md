@@ -42,3 +42,7 @@ mengambil data lowongan kerja dari situs web Glints. Dengan menggunakan library 
 Selanjutnya, kodingan mencari semua elemen HTML dengan atribut 'div' dan 'id' yang sesuai, yaitu '__next'. Kemudian, dari elemen-elemen tersebut, kodingan mengekstrak informasi pekerjaan, lokasi, dan nama perusahaan dengan mencari elemen yang memiliki atribut 'class' yang sesuai. Informasi yang diambil kemudian disimpan dalam sebuah list yang sesuai.
 
 Setelah itu, kodingan menggunakan library pandas untuk membuat dataframe dari list yang didapat dan menyimpannya dalam variabel 'df'. Kemudian kodingan mencetak dataframe tersebut, sehingga kita dapat melihat informasi lowongan kerja yang diambil dari situs web Glints.
+
+## Code dan Output
+
+<img width="785" alt="output" src="https://user-images.githubusercontent.com/110619093/213032285-ceed7ae7-ce10-4ee3-9762-a2d93fa1d18c.png">
